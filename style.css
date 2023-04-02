@@ -541,6 +541,10 @@ footer .install img {
 }
 
 @media (max-width: 799px) {
+  .num {
+    right: 137px !important;
+    top: 48px !important;
+  }
   .section-p1 {
     padding: 40px;
   }
@@ -638,6 +642,10 @@ footer .install img {
 }
 
 @media (max-width: 477px) {
+  .num {
+    right: 85px !important;
+    top: 42px !important;
+  }
   table td:nth-child(5) input {
     padding: 5px 5px !important;
     margin: 35px;
@@ -1244,6 +1252,7 @@ table td {
   align-items: center;
   justify-content: center;
   display: none;
+  z-index: -1;
 }
 
 .inputt {
